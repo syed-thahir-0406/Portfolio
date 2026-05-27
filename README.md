@@ -55,14 +55,14 @@ To run this project, you will need to have the following installed on your machi
    # Vite environment variables
 
    # Contact + Social
-   VITE_CONTACT_EMAIL=your-email@example.com
-   VITE_CONTACT_PHONE=your-phone-number
-   VITE_SOCIAL_GITHUB=https://github.com/your-handle
-   VITE_SOCIAL_LINKEDIN=https://www.linkedin.com/in/your-handle/
-   VITE_SOCIAL_MEDIUM=https://medium.com/@your-handle
+   VITE_CONTACT_EMAIL=your syedthahir2644@gmail.com
+   VITE_CONTACT_PHONE=your +91 6369967331
+   VITE_SOCIAL_GITHUB=https://github.com/syed-thahir-0406
+   VITE_SOCIAL_LINKEDIN=www.linkedin.com/in/syed-thahir-ahamedd-s-h
+   VVITE_SOCIAL_INSTAGRAM=https://www.instagram.com/syed_thahir_0406/
 
    # Contact form backend (Formspree recommended)
-   VITE_FORMSPREE_ENDPOINT=https://formspree.io/f/your-form-id
+   VITE_FORMSPREE_ENDPOINT=https://formspree.io/f/xayavzya
    ```
 
 ## Usage
@@ -93,4 +93,4 @@ This will start the development server. Open the local dev server (default port:
 
 ## Contact
 
-- Mohamed Niyaz — mohamed.niyaz219@gmail.com
+- Syed Thahir Ahamed S H — syedthahir2644@gmail.com

@@ -3,8 +3,8 @@ import TypewriterText from "../components/TypewriterText.jsx";
 import InteractiveHoverButton from "../components/InteractiveHoverButton.jsx";
 import Orb from "../components/Orb.jsx";
 import FadeInUp from "../components/FadeInUp.jsx";
-import { FaGithub, FaLinkedin, FaEnvelope, FaMediumM } from "react-icons/fa";
-import resumePdf from "../assets/Mohamed-Niyaz-A-Resume.pdf?url";
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaFacebook } from "react-icons/fa";
+import resumePdf from "../assets/thahir_resume.pdf?url";
 
 export default function HeroSection() {
   return (
@@ -29,7 +29,7 @@ export default function HeroSection() {
         <a
           href={
             import.meta.env.VITE_SOCIAL_GITHUB ||
-            "https://github.com/mohamedniyaz219"
+            "https://github.com/syed-thahir-0406"
           }
           target="_blank"
           rel="noopener"
@@ -41,7 +41,7 @@ export default function HeroSection() {
         <a
           href={
             import.meta.env.VITE_SOCIAL_LINKEDIN ||
-            "https://www.linkedin.com/in/mohamedniyaz219/"
+            "www.linkedin.com/in/syed-thahir-ahamedd-s-h"
           }
           target="_blank"
           rel="noopener"
@@ -52,7 +52,7 @@ export default function HeroSection() {
         </a>
         <a
           href={`mailto:${
-            import.meta.env.VITE_CONTACT_EMAIL || "mohamed.niyaz219@gmail.com"
+            import.meta.env.VITE_CONTACT_EMAIL || "syedthahir2644@gmail.com"
           }`}
           aria-label="Email"
           className="social-link"
@@ -61,20 +61,20 @@ export default function HeroSection() {
         </a>
         <a
           href={
-            import.meta.env.VITE_SOCIAL_MEDIUM ||
-            "https://medium.com/@mohamed.niyaz219"
+            import.meta.env.VITE_SOCIAL_INSTAGRAM ||
+            "https://www.instagram.com/syed_thahir_0406/"
           }
           target="_blank"
           rel="noopener"
-          aria-label="Medium"
+          aria-label="Instagram"
           className="social-link"
         >
-          <FaMediumM size={28} />
+          <FaInstagram size={28} />
         </a>
       </header>
       <div className="container hero-content">
         <BlurText
-          text="Mohamed Niyaz"
+          text="Syed Thahir Ahamed S H"
           delay={200}
           animateBy="words"
           direction="bottom"
@@ -117,7 +117,7 @@ export default function HeroSection() {
           </FadeInUp>
           <FadeInUp delay={950}>
             <InteractiveHoverButton
-              href="https://drive.google.com/file/d/1swrM3DdHYX3GPnFjdjaTSmLYGJBCkMhi/view?usp=sharing"
+              href="https://drive.google.com/file/d/1JH_j6nglUey8bnUrwffhK83_8STVOfJp/view?usp=sharing"
               variant="outline"
               target="_blank"
               rel="noopener noreferrer"
@@ -129,7 +129,7 @@ export default function HeroSection() {
             <InteractiveHoverButton
               href={resumePdf}
               variant="outline"
-              download="Mohamed-Niyaz-A-Resume.pdf"
+              download="thahir_resume.pdf"
             >
               Download Resume
             </InteractiveHoverButton>

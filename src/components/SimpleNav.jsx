@@ -28,8 +28,8 @@ export default function SimpleNav() {
     <header className="site-nav" role="banner">
       <div className="nav-inner">
         <a href="#hero" className="brand" aria-label="Homepage">
-          <img src={logo} alt="Mohamed Niyaz logo" className="brand-logo" />
-          <span className="brand-text">Mohamed Niyaz</span>
+          <img src={logo} alt="Syed Thahir Ahamed S H logo" className="brand-logo" />
+          <span className="brand-text">Syed THahir Ahamed S H</span>
         </a>
         <button
           className="nav-burger"
