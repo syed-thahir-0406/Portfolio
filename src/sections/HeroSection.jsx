@@ -41,7 +41,7 @@ export default function HeroSection() {
         <a
           href={
             import.meta.env.VITE_SOCIAL_LINKEDIN ||
-            "www.linkedin.com/in/syed-thahir-ahamedd-s-h"
+            "https://www.linkedin.com/in/syed-thahir-ahamedd-s-h"
           }
           target="_blank"
           rel="noopener"

@@ -9,7 +9,7 @@ export default function Footer() {
     import.meta.env.VITE_SOCIAL_GITHUB || "https://github.com/syed-thahir-0406";
   const LI =
     import.meta.env.VITE_SOCIAL_LINKEDIN ||
-    "www.linkedin.com/in/syed-thahir-ahamedd-s-h";
+    "https://www.linkedin.com/in/syed-thahir-ahamedd-s-h";
   const MD =
     import.meta.env.VITE_SOCIAL_INSTAGRAM ||
     "https://www.instagram.com/syed_thahir_0406/";
